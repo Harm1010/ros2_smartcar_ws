@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "smartcar_msgs__py",
+		"source" : "/home/harm10/ros2_smartcar_ws/build/smartcar_msgs/smartcar_msgs__py"
+	}
+}

@@ -1,5 +1,0 @@
-[31mCMake Error at cmake_install.cmake:46 (file):
-  file INSTALL cannot find "/home/ros2/ros2_ws/src/smart_car/world": No such
-  file or directory.
-
-[0m

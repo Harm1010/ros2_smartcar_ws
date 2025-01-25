@@ -21,7 +21,7 @@ def generate_launch_description():
     nav2_params_path = os.path.join(get_package_share_directory(package_name), 'config', 'nav2_params.yaml')
     nav2_map_path = os.path.join(get_package_share_directory(package_name), 'config', 'smalltown_world.yaml')
     nav2_bt_path = os.path.join(get_package_share_directory(package_name), 'config', 'bt_nav2.xml')
-    rviz_config_path = '/home/ros2/ros2_ws/src/smart_car/rviz/nav2_default_view.rviz'
+    rviz_config_path = '/home/ros2_smartcar_ws/src/smart_car/rviz/nav2_default_view.rviz'
 
     # Gazebo and Nav2 launch files
     gazebo_launch_file = os.path.join(get_package_share_directory(gazebo_ros_pkg), 'launch', 'gazebo.launch.py')

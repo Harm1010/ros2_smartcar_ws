@@ -1,0 +1,74 @@
+[0.010s] Invoking command in '/home/harm10/ros2_smartcar_ws/build/smart_car': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/harm10/ros2_smartcar_ws/src/smart_car -DCMAKE_INSTALL_PREFIX=/home/harm10/ros2_smartcar_ws/install/smart_car
+[0.072s] -- The C compiler identification is GNU 11.4.0
+[0.121s] -- The CXX compiler identification is GNU 11.4.0
+[0.135s] -- Detecting C compiler ABI info
+[0.195s] -- Detecting C compiler ABI info - done
+[0.217s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.217s] -- Detecting C compile features
+[0.217s] -- Detecting C compile features - done
+[0.220s] -- Detecting CXX compiler ABI info
+[0.289s] -- Detecting CXX compiler ABI info - done
+[0.302s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.302s] -- Detecting CXX compile features
+[0.303s] -- Detecting CXX compile features - done
+[0.306s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.452s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.523s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[0.557s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.561s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.568s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.578s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.590s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.625s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.627s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.703s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.726s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.761s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.769s] -- Looking for pthread.h
+[0.836s] -- Looking for pthread.h - found
+[0.836s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.899s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.899s] -- Found Threads: TRUE  
+[0.945s] -- Found rclpy: 3.3.15 (/opt/ros/humble/share/rclpy/cmake)
+[0.947s] -- Found xacro: 2.0.8 (/opt/ros/humble/share/xacro/cmake)
+[0.948s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.032s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.032s] -- Added test 'lint_cmake' to check CMake code style
+[1.033s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.035s] -- Added test 'xmllint' to check XML markup files
+[1.036s] -- Configuring done
+[1.041s] -- Generating done
+[1.043s] -- Build files have been written to: /home/harm10/ros2_smartcar_ws/build/smart_car
+[1.052s] Invoked command in '/home/harm10/ros2_smartcar_ws/build/smart_car' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/harm10/ros2_smartcar_ws/src/smart_car -DCMAKE_INSTALL_PREFIX=/home/harm10/ros2_smartcar_ws/install/smart_car
+[1.053s] Invoking command in '/home/harm10/ros2_smartcar_ws/build/smart_car': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/harm10/ros2_smartcar_ws/build/smart_car -- -j16 -l16
+[1.105s] Built target ament_cmake_python_copy_smart_car
+[1.299s] running egg_info
+[1.300s] creating smart_car.egg-info
+[1.300s] writing smart_car.egg-info/PKG-INFO
+[1.300s] writing dependency_links to smart_car.egg-info/dependency_links.txt
+[1.300s] writing top-level names to smart_car.egg-info/top_level.txt
+[1.300s] writing manifest file 'smart_car.egg-info/SOURCES.txt'
+[1.302s] reading manifest file 'smart_car.egg-info/SOURCES.txt'
+[1.302s] writing manifest file 'smart_car.egg-info/SOURCES.txt'
+[1.325s] Built target ament_cmake_python_build_smart_car_egg
+[1.337s] Invoked command in '/home/harm10/ros2_smartcar_ws/build/smart_car' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/harm10/ros2_smartcar_ws/build/smart_car -- -j16 -l16
+[1.346s] Invoking command in '/home/harm10/ros2_smartcar_ws/build/smart_car': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/harm10/ros2_smartcar_ws/build/smart_car
+[1.353s] -- Install configuration: ""
+[1.353s] -- Installing: /home/harm10/ros2_smartcar_ws/install/smart_car/share/smart_car/urdf
+[1.353s] -- Installing: /home/harm10/ros2_smartcar_ws/install/smart_car/share/smart_car/urdf/smartcar.urdf
+[1.353s] -- Installing: /home/harm10/ros2_smartcar_ws/install/smart_car/share/smart_car/urdf/smartcar.urdf.xacro
+[1.354s] -- Installing: /home/harm10/ros2_smartcar_ws/install/smart_car/share/smart_car/launch
+[1.354s] -- Installing: /home/harm10/ros2_smartcar_ws/install/smart_car/share/smart_car/launch/localization.launch.py
+[1.354s] -- Installing: /home/harm10/ros2_smartcar_ws/install/smart_car/share/smart_car/launch/format.py
+[1.354s] -- Installing: /home/harm10/ros2_smartcar_ws/install/smart_car/share/smart_car/launch/smartcar.launch.py
+[1.354s] -- Installing: /home/harm10/ros2_smartcar_ws/install/smart_car/share/smart_car/launch/nav2.launch.py
+[1.354s] -- Installing: /home/harm10/ros2_smartcar_ws/install/smart_car/share/smart_car/launch/gazebo.launch.py
+[1.354s] -- Installing: /home/harm10/ros2_smartcar_ws/install/smart_car/share/smart_car/launch/__pycache__
+[1.354s] -- Installing: /home/harm10/ros2_smartcar_ws/install/smart_car/share/smart_car/launch/__pycache__/smartcar.launch.cpython-310.pyc
+[1.354s] [31mCMake Error at cmake_install.cmake:46 (file):
+[1.354s]   file INSTALL cannot find
+[1.354s]   "/home/harm10/ros2_smartcar_ws/src/smart_car/config": No such file or
+[1.354s]   directory.
+[1.354s] 
+[1.354s] [0m
+[1.356s] Invoked command in '/home/harm10/ros2_smartcar_ws/build/smart_car' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/harm10/ros2_smartcar_ws/build/smart_car

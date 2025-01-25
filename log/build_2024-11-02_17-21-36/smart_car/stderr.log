@@ -1,5 +1,0 @@
-[31mCMake Error at cmake_install.cmake:77 (file):
-  file INSTALL cannot find "/home/ros2/ros2_ws/src/smart_car/script/odom.py":
-  No such file or directory.
-
-[0m

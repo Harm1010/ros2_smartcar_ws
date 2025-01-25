@@ -60,7 +60,7 @@ def generate_launch_description():
         executable='rviz2',
         name='rviz_visualizer',
         output='screen',
-        arguments=['-d', '/home/ros2/ros2_ws/src/smart_car/rviz/smart_car.rviz']
+        arguments=['-d', '/home/ros2_smartcar_ws/src/smart_car/rviz/smart_car.rviz']
     )
 
     # 5. Odometry Publisher for robot's wheel odometry

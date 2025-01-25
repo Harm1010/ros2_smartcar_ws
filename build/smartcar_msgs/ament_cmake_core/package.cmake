@@ -1,6 +1,6 @@
 set(_AMENT_PACKAGE_NAME "smartcar_msgs")
 set(smartcar_msgs_VERSION "0.0.0")
-set(smartcar_msgs_MAINTAINER "Roman Kim <r.kim@student.han.nl>")
+set(smartcar_msgs_MAINTAINER "Harm Smits <HS.Smits@student.han.nl>")
 set(smartcar_msgs_BUILD_DEPENDS "rclcpp" "rclpy" "std_msgs" "geometry_msgs")
 set(smartcar_msgs_BUILDTOOL_DEPENDS "ament_cmake" "rosidl_default_generators")
 set(smartcar_msgs_BUILD_EXPORT_DEPENDS "rclcpp" "rclpy" "std_msgs" "geometry_msgs")
