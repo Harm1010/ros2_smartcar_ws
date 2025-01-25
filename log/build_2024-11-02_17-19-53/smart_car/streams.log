@@ -1,0 +1,46 @@
+[0.009s] Invoking command in '/home/ros2/ros2_ws/build/smart_car': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ros2/ros2_ws/build/smart_car -- -j8 -l8
+[0.030s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.128s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.151s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.154s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.159s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.166s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.182s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.198s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.199s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[0.212s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.248s] -- Found rclpy: 3.3.14 (/opt/ros/humble/share/rclpy/cmake)
+[0.248s] -- Found xacro: 2.0.8 (/opt/ros/humble/share/xacro/cmake)
+[0.249s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.315s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.315s] -- Added test 'lint_cmake' to check CMake code style
+[0.315s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.316s] -- Added test 'xmllint' to check XML markup files
+[0.317s] -- Configuring done
+[0.321s] -- Generating done
+[0.322s] -- Build files have been written to: /home/ros2/ros2_ws/build/smart_car
+[0.357s] Built target ament_cmake_python_copy_smart_car
+[0.553s] running egg_info
+[0.554s] creating smart_car.egg-info
+[0.554s] writing smart_car.egg-info/PKG-INFO
+[0.554s] writing dependency_links to smart_car.egg-info/dependency_links.txt
+[0.554s] writing top-level names to smart_car.egg-info/top_level.txt
+[0.555s] writing manifest file 'smart_car.egg-info/SOURCES.txt'
+[0.558s] reading manifest file 'smart_car.egg-info/SOURCES.txt'
+[0.558s] writing manifest file 'smart_car.egg-info/SOURCES.txt'
+[0.587s] Built target ament_cmake_python_build_smart_car_egg
+[0.596s] Invoked command in '/home/ros2/ros2_ws/build/smart_car' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ros2/ros2_ws/build/smart_car -- -j8 -l8
+[0.624s] Invoking command in '/home/ros2/ros2_ws/build/smart_car': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ros2/ros2_ws/build/smart_car
+[0.630s] -- Install configuration: ""
+[0.630s] -- Up-to-date: /home/ros2/ros2_ws/install/smart_car/share/smart_car/urdf
+[0.630s] -- Installing: /home/ros2/ros2_ws/install/smart_car/share/smart_car/urdf/smartcar.urdf.xacro
+[0.630s] -- Installing: /home/ros2/ros2_ws/install/smart_car/share/smart_car/urdf/smartcar.urdf
+[0.631s] -- Up-to-date: /home/ros2/ros2_ws/install/smart_car/share/smart_car/launch
+[0.631s] -- Installing: /home/ros2/ros2_ws/install/smart_car/share/smart_car/launch/gazebo.launch.py
+[0.631s] -- Installing: /home/ros2/ros2_ws/install/smart_car/share/smart_car/launch/display.launch.py
+[0.631s] [31mCMake Error at cmake_install.cmake:46 (file):
+[0.631s]   file INSTALL cannot find "/home/ros2/ros2_ws/src/smart_car/world": No such
+[0.631s]   file or directory.
+[0.631s] 
+[0.631s] [0m
+[0.632s] Invoked command in '/home/ros2/ros2_ws/build/smart_car' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ros2/ros2_ws/build/smart_car

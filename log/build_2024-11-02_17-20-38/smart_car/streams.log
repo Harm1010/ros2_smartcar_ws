@@ -1,0 +1,24 @@
+[0.010s] Invoking command in '/home/ros2/ros2_ws/build/smart_car': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ros2/ros2_ws/build/smart_car -- -j8 -l8
+[0.062s] Built target ament_cmake_python_copy_smart_car
+[0.251s] running egg_info
+[0.251s] writing smart_car.egg-info/PKG-INFO
+[0.251s] writing dependency_links to smart_car.egg-info/dependency_links.txt
+[0.251s] writing top-level names to smart_car.egg-info/top_level.txt
+[0.253s] reading manifest file 'smart_car.egg-info/SOURCES.txt'
+[0.253s] writing manifest file 'smart_car.egg-info/SOURCES.txt'
+[0.276s] Built target ament_cmake_python_build_smart_car_egg
+[0.285s] Invoked command in '/home/ros2/ros2_ws/build/smart_car' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ros2/ros2_ws/build/smart_car -- -j8 -l8
+[0.316s] Invoking command in '/home/ros2/ros2_ws/build/smart_car': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ros2/ros2_ws/build/smart_car
+[0.322s] -- Install configuration: ""
+[0.322s] -- Up-to-date: /home/ros2/ros2_ws/install/smart_car/share/smart_car/urdf
+[0.322s] -- Up-to-date: /home/ros2/ros2_ws/install/smart_car/share/smart_car/urdf/smartcar.urdf.xacro
+[0.322s] -- Up-to-date: /home/ros2/ros2_ws/install/smart_car/share/smart_car/urdf/smartcar.urdf
+[0.322s] -- Up-to-date: /home/ros2/ros2_ws/install/smart_car/share/smart_car/launch
+[0.322s] -- Up-to-date: /home/ros2/ros2_ws/install/smart_car/share/smart_car/launch/gazebo.launch.py
+[0.322s] -- Up-to-date: /home/ros2/ros2_ws/install/smart_car/share/smart_car/launch/display.launch.py
+[0.322s] [31mCMake Error at cmake_install.cmake:46 (file):
+[0.322s]   file INSTALL cannot find "/home/ros2/ros2_ws/src/smart_car/world": No such
+[0.322s]   file or directory.
+[0.323s] 
+[0.323s] [0m
+[0.323s] Invoked command in '/home/ros2/ros2_ws/build/smart_car' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ros2/ros2_ws/build/smart_car

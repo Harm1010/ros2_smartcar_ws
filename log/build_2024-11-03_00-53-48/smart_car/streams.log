@@ -1,0 +1,57 @@
+[0.014s] Invoking command in '/home/ros2/ros2_ws/build/smart_car': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ros2/ros2_ws/build/smart_car -- -j8 -l8
+[0.072s] Built target ament_cmake_python_copy_smart_car
+[0.325s] running egg_info
+[0.325s] writing smart_car.egg-info/PKG-INFO
+[0.326s] writing dependency_links to smart_car.egg-info/dependency_links.txt
+[0.326s] writing top-level names to smart_car.egg-info/top_level.txt
+[0.329s] reading manifest file 'smart_car.egg-info/SOURCES.txt'
+[0.329s] writing manifest file 'smart_car.egg-info/SOURCES.txt'
+[0.361s] Built target ament_cmake_python_build_smart_car_egg
+[0.372s] Invoked command in '/home/ros2/ros2_ws/build/smart_car' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ros2/ros2_ws/build/smart_car -- -j8 -l8
+[0.401s] Invoking command in '/home/ros2/ros2_ws/build/smart_car': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ros2/ros2_ws/build/smart_car
+[0.409s] -- Install configuration: ""
+[0.409s] -- Up-to-date: /home/ros2/ros2_ws/install/smart_car/share/smart_car/urdf
+[0.409s] -- Up-to-date: /home/ros2/ros2_ws/install/smart_car/share/smart_car/urdf/smartcar.urdf.xacro
+[0.409s] -- Up-to-date: /home/ros2/ros2_ws/install/smart_car/share/smart_car/urdf/smartcar.urdf
+[0.409s] -- Up-to-date: /home/ros2/ros2_ws/install/smart_car/share/smart_car/launch
+[0.409s] -- Up-to-date: /home/ros2/ros2_ws/install/smart_car/share/smart_car/launch/format.py
+[0.409s] -- Up-to-date: /home/ros2/ros2_ws/install/smart_car/share/smart_car/launch/gazebo.launch.py
+[0.409s] -- Up-to-date: /home/ros2/ros2_ws/install/smart_car/share/smart_car/launch/__pycache__
+[0.409s] -- Up-to-date: /home/ros2/ros2_ws/install/smart_car/share/smart_car/launch/localization.launch.py
+[0.409s] -- Up-to-date: /home/ros2/ros2_ws/install/smart_car/share/smart_car/launch/smartcar.launch.py
+[0.410s] -- Up-to-date: /home/ros2/ros2_ws/install/smart_car/share/smart_car/launch/nav2.launch.py
+[0.410s] -- Up-to-date: /home/ros2/ros2_ws/install/smart_car/share/smart_car/config
+[0.410s] -- Up-to-date: /home/ros2/ros2_ws/install/smart_car/share/smart_car/config/ekf.yaml
+[0.410s] -- Up-to-date: /home/ros2/ros2_ws/install/smart_car/share/smart_car/config/nav2_params.yaml
+[0.410s] -- Up-to-date: /home/ros2/ros2_ws/install/smart_car/share/smart_car/config/smalltown_world.yaml
+[0.410s] -- Up-to-date: /home/ros2/ros2_ws/install/smart_car/share/smart_car/config/smalltown_world.pgm
+[0.410s] -- Installing: /home/ros2/ros2_ws/install/smart_car/share/smart_car/config/bt_nav2.xml
+[0.410s] -- Up-to-date: /home/ros2/ros2_ws/install/smart_car/share/smart_car/world
+[0.410s] -- Up-to-date: /home/ros2/ros2_ws/install/smart_car/share/smart_car/world/smalltown.world
+[0.410s] -- Up-to-date: /home/ros2/ros2_ws/install/smart_car/share/smart_car/environment/pythonpath.sh
+[0.410s] -- Up-to-date: /home/ros2/ros2_ws/install/smart_car/share/smart_car/environment/pythonpath.dsv
+[0.410s] -- Up-to-date: /home/ros2/ros2_ws/install/smart_car/local/lib/python3.10/dist-packages/smart_car-0.0.0-py3.10.egg-info
+[0.410s] -- Installing: /home/ros2/ros2_ws/install/smart_car/local/lib/python3.10/dist-packages/smart_car-0.0.0-py3.10.egg-info/SOURCES.txt
+[0.410s] -- Installing: /home/ros2/ros2_ws/install/smart_car/local/lib/python3.10/dist-packages/smart_car-0.0.0-py3.10.egg-info/PKG-INFO
+[0.410s] -- Installing: /home/ros2/ros2_ws/install/smart_car/local/lib/python3.10/dist-packages/smart_car-0.0.0-py3.10.egg-info/top_level.txt
+[0.410s] -- Installing: /home/ros2/ros2_ws/install/smart_car/local/lib/python3.10/dist-packages/smart_car-0.0.0-py3.10.egg-info/dependency_links.txt
+[0.410s] -- Up-to-date: /home/ros2/ros2_ws/install/smart_car/local/lib/python3.10/dist-packages/smart_car
+[0.410s] -- Up-to-date: /home/ros2/ros2_ws/install/smart_car/local/lib/python3.10/dist-packages/smart_car/__init__.py
+[0.438s] Listing '/home/ros2/ros2_ws/install/smart_car/local/lib/python3.10/dist-packages/smart_car'...
+[0.442s] -- Up-to-date: /home/ros2/ros2_ws/install/smart_car/lib/smart_car/odom.py
+[0.442s] -- Up-to-date: /home/ros2/ros2_ws/install/smart_car/share/ament_index/resource_index/package_run_dependencies/smart_car
+[0.442s] -- Up-to-date: /home/ros2/ros2_ws/install/smart_car/share/ament_index/resource_index/parent_prefix_path/smart_car
+[0.442s] -- Up-to-date: /home/ros2/ros2_ws/install/smart_car/share/smart_car/environment/ament_prefix_path.sh
+[0.442s] -- Up-to-date: /home/ros2/ros2_ws/install/smart_car/share/smart_car/environment/ament_prefix_path.dsv
+[0.443s] -- Up-to-date: /home/ros2/ros2_ws/install/smart_car/share/smart_car/environment/path.sh
+[0.443s] -- Up-to-date: /home/ros2/ros2_ws/install/smart_car/share/smart_car/environment/path.dsv
+[0.443s] -- Up-to-date: /home/ros2/ros2_ws/install/smart_car/share/smart_car/local_setup.bash
+[0.443s] -- Up-to-date: /home/ros2/ros2_ws/install/smart_car/share/smart_car/local_setup.sh
+[0.444s] -- Up-to-date: /home/ros2/ros2_ws/install/smart_car/share/smart_car/local_setup.zsh
+[0.444s] -- Up-to-date: /home/ros2/ros2_ws/install/smart_car/share/smart_car/local_setup.dsv
+[0.444s] -- Installing: /home/ros2/ros2_ws/install/smart_car/share/smart_car/package.dsv
+[0.444s] -- Up-to-date: /home/ros2/ros2_ws/install/smart_car/share/ament_index/resource_index/packages/smart_car
+[0.444s] -- Up-to-date: /home/ros2/ros2_ws/install/smart_car/share/smart_car/cmake/smart_carConfig.cmake
+[0.444s] -- Up-to-date: /home/ros2/ros2_ws/install/smart_car/share/smart_car/cmake/smart_carConfig-version.cmake
+[0.444s] -- Up-to-date: /home/ros2/ros2_ws/install/smart_car/share/smart_car/package.xml
+[0.449s] Invoked command in '/home/ros2/ros2_ws/build/smart_car' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ros2/ros2_ws/build/smart_car
