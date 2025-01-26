@@ -7,34 +7,42 @@ from launch.substitutions import Command
 from ament_index_python.packages import get_package_share_directory
 
 def generate_launch_description():
-    # Paths to important files
+    """
+    Generate launch description for the Gazebo simulation.
+
+    This function sets up the necessary nodes and includes launch descriptions
+    for launching a smart car simulation in Gazebo. It includes spawning the 
+    robot model, publishing its state, and visualizing it in RViz.
+    """
+
+    # Path to the smart car URDF file
     urdf_path = os.path.join(
         get_package_share_directory('smart_car'),
         'urdf',
         'smartcar.urdf'
     )
     
+    # Path to the Gazebo world file
     world_path = os.path.join(
         get_package_share_directory('smart_car'),
         'world',
         'smalltown.world'
     )
 
-    # Gazebo launch file path from gazebo_ros package
+    # Path to the Gazebo launch file
     gazebo_launch_file = os.path.join(
         get_package_share_directory('gazebo_ros'),
         'launch',
         'gazebo.launch.py'
     )
 
-    # Launch Description Components
-    # 1. Start Gazebo and load the specified world file
+    # Include the Gazebo launch file with the specified world
     start_gazebo = IncludeLaunchDescription(
         PythonLaunchDescriptionSource(gazebo_launch_file),
         launch_arguments={'world': world_path}.items()
     )
     
-    # 2. Spawn the robot in Gazebo
+    # Node to spawn the smart car entity in Gazebo
     spawn_robot = Node(
         package='gazebo_ros',
         executable='spawn_entity.py',
@@ -43,7 +51,7 @@ def generate_launch_description():
         arguments=['-entity', 'smart_car', '-file', urdf_path, '-x', '0', '-y', '0', '-z', '0']
     )
 
-    # 3. Robot State Publisher for publishing the robot description and transforms
+    # Node to publish the robot's state
     robot_state_publisher = Node(
         package='robot_state_publisher',
         executable='robot_state_publisher',
@@ -53,8 +61,8 @@ def generate_launch_description():
             'robot_description': Command(['xacro ', urdf_path])
         }]
     )
-    
-    # 4. RViz visualization node
+
+    # Node to visualize the robot in RViz
     rviz_node = Node(
         package='rviz2',
         executable='rviz2',
@@ -63,7 +71,7 @@ def generate_launch_description():
         arguments=['-d', '/home/ros2_smartcar_ws/src/smart_car/rviz/smart_car.rviz']
     )
 
-    # 5. Odometry Publisher for robot's wheel odometry
+    # Node to publish odometry data
     odometry_publisher = Node(
         package='smart_car',
         executable='odom.py',
@@ -71,12 +79,12 @@ def generate_launch_description():
         output='screen'
     )
 
-    # Return Launch Description
+    # Return the launch description with all the nodes and included launch files
     return LaunchDescription([
-        start_gazebo,                # Start Gazebo with the specified world file
-        spawn_robot,                 # Spawn the robot in Gazebo
-        robot_state_publisher,       # Publish robot description and transforms
-        rviz_node,                   # Start RViz for visualization
-        odometry_publisher           # Start the odometry node
+        start_gazebo,                
+        spawn_robot,                 
+        robot_state_publisher,       
+        rviz_node,                   
+        odometry_publisher           
     ])
 
