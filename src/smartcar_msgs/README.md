@@ -1,8 +1,4 @@
 
-
-Here is a sample README file for the `smartcar_msgs` ROS2 package:
-
-
 # Smart Car Messages ROS2 Package
 =====================================
 
